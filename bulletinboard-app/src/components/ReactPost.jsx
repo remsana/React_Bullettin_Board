@@ -17,7 +17,7 @@ export default function ReactPost({ question, answer, id }) {
         {" "}
         {id}. {question}
       </h3>
-      <h4 className="answer">Svar: {answer}</h4>
+      <p className="answer">Svar: {answer}</p>
       <button onClick={btnClick} className={buttonClick ? "disappear" : "appear"}>Like</button>
       {buttonClick && <PostLiked />}
     </div>

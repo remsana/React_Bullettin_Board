@@ -2,22 +2,32 @@
   text-align: center;
 }
 
+.heading {
+  color: white;
+  border: rgb(38, 0, 128) solid 2px;
+  margin: 15px ;
+  padding: 5px;  
+  background-color: rgb(38, 0, 128);
+  border-radius: 5px;
+}
+
 .queAndAns {
 
-  border: rgb(38, 0, 128) dotted 1px;
+  border: rgb(38, 0, 128) dotted 2px;
   margin: 5px 15px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+  background-color: lightgrey;
+  border-radius: 5px;
   
 }
 
 .question {
-  color: rgb(231, 109, 109);
+  color: rgb(38, 0, 128);
   
 }
 
 .answer {
-  color: rgb(113, 161, 113);
-  font-style: italic;
+  color: black;
 }
 
 .disappear {
@@ -26,7 +36,7 @@
 
 .appear {
 border-radius: 5px;
-background-color: rgb(53, 6, 88);
+background-color: rgb(38, 0, 128);
 color: white;
 padding: 3px 7px;
 cursor: pointer;
